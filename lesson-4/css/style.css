@@ -1,0 +1,33 @@
+@import "normalise.css";
+@import "reset.css";
+@import "grid.css";
+
+.wrapper{
+    /*background: #000;*/
+    /*overflow: hidden;*/
+    min-width:200px;
+    max-width:1200px;
+}
+
+.header {
+    background: #ccc;
+    float: left;    
+}
+
+.content {
+    background:green;
+    float: left;
+    /*width:70%;*/
+}
+
+.sidebar {
+    background:red;
+    float: left;
+    /*width:30%;*/
+}
+
+.footer {
+    background: #ccc;
+    float: left;
+}
+
